@@ -333,7 +333,7 @@ def main():
     global grid, rows, cols, ax
     
     # Turn image into grid
-    cap = cv2.imread("images/extrahard-level401.jpg")
+    cap = cv2.imread("levels/extrahard-level401.jpg")
     grid = process_img(cap)
 
     rows, cols = grid.shape
@@ -363,4 +363,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
